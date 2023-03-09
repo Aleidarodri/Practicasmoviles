@@ -27,9 +27,52 @@ class _QuizPagesState extends State<QuizPages> {
   List<String> preguntas = [
     '¿Los Globulos rojos viven 4 meses?',
     'El cuerpo Humano tiene 306 huesos',
+    'La cobalamina es una vitamina?',
+    '¿Los Globulos rojos viven 4 meses?',
+    'El cuerpo Humano tiene 306 huesos',
     'La cobalamina es una vitamina?'
   ];
+
+  List<bool> respuestas = [
+    true,
+    false,
+    true,
+    true,
+    false,
+    true,
+  ];
+
   int numeroPregunta = 0;
+
+  respuesta(bool respuestaUsuario) {
+    if (numeroPregunta >= preguntas.length - 1) {
+      showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return const AlertDialog(
+            title: Text("Terminado"),
+            content: Text("respuestas completadas"),
+          );
+        },
+      );
+    } else {
+      bool respuestaCorrecta = respuestas[numeroPregunta];
+      if (respuestaUsuario == respuestaCorrecta) {
+        puntuacion.add(const Icon(
+          Icons.check,
+          color: Colors.green,
+          size: 35,
+        ));
+      } else {
+        puntuacion.add(const Icon(
+          Icons.close,
+          color: Colors.red,
+          size: 35,
+        ));
+      }
+      numeroPregunta++;
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -58,13 +101,7 @@ class _QuizPagesState extends State<QuizPages> {
                 child: TextButton(
                     onPressed: () {
                       setState(() {
-                        puntuacion.add(
-                          Icon(
-                            Icons.check,
-                            color: Colors.green,
-                          ),
-                        );
-                        numeroPregunta++;
+                        respuesta(true);
                       });
                     },
                     child: Text(
@@ -82,13 +119,7 @@ class _QuizPagesState extends State<QuizPages> {
                 child: TextButton(
                     onPressed: () {
                       setState(() {
-                        puntuacion.add(
-                          Icon(
-                            Icons.close,
-                            color: Colors.red,
-                          ),
-                        );
-                        numeroPregunta++;
+                        respuesta(false);
                       });
                     },
                     child: Text(

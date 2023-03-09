@@ -1,0 +1,208 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "introduccion",
+            "cwd": "introduccion",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "introduccion (profile mode)",
+            "cwd": "introduccion",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "introduccion (release mode)",
+            "cwd": "introduccion",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "cronometro",
+            "cwd": "cronometro\\cronometro",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "cronometro (profile mode)",
+            "cwd": "cronometro\\cronometro",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "cronometro (release mode)",
+            "cwd": "cronometro\\cronometro",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "dice",
+            "cwd": "dados\\dice",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dice (profile mode)",
+            "cwd": "dados\\dice",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "dice (release mode)",
+            "cwd": "dados\\dice",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "magic_8ball",
+            "cwd": "magic_8ball\\magic_8ball",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "magic_8ball (profile mode)",
+            "cwd": "magic_8ball\\magic_8ball",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "magic_8ball (release mode)",
+            "cwd": "magic_8ball\\magic_8ball",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "navegacion",
+            "cwd": "navegacion\\navegacion",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "navegacion (profile mode)",
+            "cwd": "navegacion\\navegacion",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "navegacion (release mode)",
+            "cwd": "navegacion\\navegacion",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "navegacion",
+            "cwd": "navegacion_app\\navegacion",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "navegacion (profile mode)",
+            "cwd": "navegacion_app\\navegacion",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "navegacion (release mode)",
+            "cwd": "navegacion_app\\navegacion",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "navegacion",
+            "cwd": "navigator\\navegacion",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "navegacion (profile mode)",
+            "cwd": "navigator\\navegacion",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "navegacion (release mode)",
+            "cwd": "navigator\\navegacion",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "my_card",
+            "cwd": "practica1\\my_card",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "my_card (profile mode)",
+            "cwd": "practica1\\my_card",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "my_card (release mode)",
+            "cwd": "practica1\\my_card",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "quiz",
+            "cwd": "quiz\\quiz",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "quiz (profile mode)",
+            "cwd": "quiz\\quiz",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "quiz (release mode)",
+            "cwd": "quiz\\quiz",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "xilofono",
+            "cwd": "xilofono\\xilofono",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "xilofono (profile mode)",
+            "cwd": "xilofono\\xilofono",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "xilofono (release mode)",
+            "cwd": "xilofono\\xilofono",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
